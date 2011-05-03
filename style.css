@@ -1,0 +1,343 @@
+/*
+Theme Name: Dance School
+Theme URI: http://jeremypack.co.uk
+Description: A simple template built for a dance school
+Version: 0.1
+Author: Jeremy Pack
+Author URI: http://jeremypack.co.uk
+Tags: dancing, light, buisiness
+*/
+body{
+	background-color: #efefef;
+	font-size:12px;
+	font-family:Arial, Tahoma, Verdana;
+	color:#333;
+	margin:0 auto;
+	padding:0;
+	line-height:20px;
+}
+
+p {
+	padding:0;
+	margin:10px 0 0 0;
+	text-align:justify;
+}
+
+#wrap{
+	margin:0px auto;
+	background-color: #fff;
+	width:900px;
+	padding: 0px 30px;
+	height:auto;
+}
+
+#header{
+	float:left;
+	width:900px;
+	height:auto;
+	border-top: 2px solid #99ff00;
+}
+
+#heading{
+	float:left;
+	width:500px;
+	height:60px;
+	padding:40px 0 0 0;
+}
+
+#full-content {
+	float:left;
+	width:900px;
+	height:auto;
+	padding:5px 0 0 0;
+	margin:0;
+}
+
+#two-big{
+	float:left;
+	width:560px;
+	height:auto;
+	padding:10px 30px 10px 0px;
+	margin:0 0 10px 0;
+}
+
+#one-small{
+	float:left;
+	width:280px;
+	height:auto;
+	padding:10px;
+	margin:0 0 10px 0;
+}
+
+.green {
+	color:#99ff00;
+}
+
+#logo{
+	float:left;
+	width:400px;
+	text-align:right;
+	margin-top:20px;
+	height:80px;
+}
+
+#navigation {
+	width:900px;
+	float:left !important; 
+	border-bottom: 1px solid #999;
+	border-top: 1px dotted #999;
+	height:30px;
+	margin:0;
+	padding:0;
+}
+
+#navigation li a, #navigation li {
+	float:left;
+}
+
+#navigation li {
+	list-style:none; /* Get rid of bullets */
+	position: relative;
+}
+
+#navigation li a {
+	padding: 5px 20px;
+	text-decoration:none;
+	background-color:white;
+	color:black;
+}
+
+#navigation li a:hover{
+	background:#99ff00;
+	color:#003366;
+}
+
+/* Sub Menu */
+#navigation li ul {
+	display:none;
+	left:0;
+	top:100%;
+	position:absolute;
+	padding:0;
+	margin:0;
+}
+
+#navigation li:hover ul {
+	display:block;
+	position:absolute;
+}
+
+#navigaiton li ul li, #navigation li ul li a {
+	float: none;
+}
+
+#navigaiton li ul li {
+	_display:inline; /* IE 6*/
+}
+
+#navigation li ul li a {
+	width:100px;
+	display:block;
+	color:black;
+	border:solid thin #DDD;
+}
+
+/*Sub Sub Menu*/
+#navigation li ul li ul {
+	display:none !important;
+}
+
+h1 {
+	font-size:45px;
+	height:30px;
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	font-family: 'Crimson Text', arial, serif;
+	font-size:22px;
+	margin:0;
+	padding:0px 0 0 0;
+}
+
+h3 {
+	font-family: 'Crimson Text', arial, serif;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	border-bottom: solid 1px black;
+	color:#99ff00;
+}
+
+.post-title {
+	float:left;
+	width:500px;
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+.post-date {
+	float:left;
+	width:100px;
+	border-bottom:solid thin gray;
+	padding:0;
+	margin:0 0 10px 0;
+	text-align: right;
+}
+
+h4 {
+	font-size:16px;
+	margin:0;
+	padding:0;
+	border-bottom: solid 1px black;
+	color:#99ff00;
+	font-family: 'Crimson Text', arial, serif;
+}
+
+h5 {
+	font-size:14px;
+	margin:0;
+	padding:0;
+	border-bottom: solid 1px black;
+	color:#99ff00;
+	font-family: 'Crimson Text', arial, serif;
+}
+
+a:link{
+	color:#003366;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#003366;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#003366;
+	text-decoration:underline;
+}
+
+a:active{
+	color:#003366;
+}
+
+#page_content {
+	float:left;
+	width:600px;
+	height:auto;
+	padding:0;
+	margin:20px 0 0 0;
+}
+
+#posts {
+	float:left;
+	width:600px;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+
+.post-content {
+	float:left;
+	width:600px;
+	height:auto;
+	padding:0;
+	margin:20px 0 0 0;
+}
+
+.class-info {
+	float:left;
+	width:110px;
+	height:100px;
+	padding:0;
+	margin:0 20px 0 0px;
+}
+
+#sidebar {
+	float:left;
+	width:260px;
+	margin:20px 0 0 40px;
+	padding:0;
+}
+
+#sidebar ul {
+	list-style: none;
+	display: inline;
+	margin:0;
+	padding:0;
+}
+
+.bar {
+	float:left;
+	margin:0 0 30px 0;
+	padding:0 0 20px 0;
+	width:260px;
+	border-bottom: 1px dotted #999;
+}
+
+table {
+	width:600px;
+}
+
+td {
+	border: 1px solid #999;
+}
+
+th {
+	text-align: left;
+	border: 1px solid #999;
+}
+
+
+/*Footer*/
+
+#footer{
+	clear:both;
+	width:900px;
+	height:70px;
+	text-align:left;
+	font-size:9px;
+	border-bottom:2px solid #99ff00;
+	border-top: 1px solid #333;
+	margin:00px 0 0 0;
+	padding:0;
+}
+
+/*Wordpress Default*/
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.wp-caption {
+/*	background-color: #f3f3f3;
+*/	border: 1px solid #ddd;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* optional rounded corners for browsers that support it */
+	margin: 10px 20px 10px 0px;
+	padding-top: 4px;
+	text-align: center;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 9px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+	text-align:center;
+}
+
