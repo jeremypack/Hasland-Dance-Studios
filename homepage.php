@@ -12,9 +12,17 @@ Template Name: Homepage
 <?php if (have_posts()) : ?>
 
 	<?php while (have_posts()) : the_post(); ?>
-<div id="full-content">
-	<p><?php the_content(); ?></p>
-</div>
+
+	<div id="slider">
+		<ul>				
+			<li><a href="http://templatica.com/preview/30"><img src="<?php bloginfo('template_directory'); ?>/images/01.jpg" alt="Css Template Preview" /></a></li>
+			<li><a href="http://templatica.com/preview/7"><img src="<?php bloginfo('template_directory'); ?>/images/02.jpg" alt="Css Template Preview" /></a></li>
+			<li><a href="http://templatica.com/preview/25"><img src="<?php bloginfo('template_directory'); ?>/images/03.jpg" alt="Css Template Preview" /></a></li>
+			<li><a href="http://templatica.com/preview/26"><img src="<?php bloginfo('template_directory'); ?>/images/04.jpg" alt="Css Template Preview" /></a></li>
+			<li><a href="http://templatica.com/preview/27"><img src="<?php bloginfo('template_directory'); ?>/images/05.jpg" alt="Css Template Preview" /></a></li>			
+		</ul>
+	</div>
+
 	<?php endwhile; ?>
 	
 <div id="two-big">
