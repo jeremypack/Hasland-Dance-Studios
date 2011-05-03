@@ -40,9 +40,25 @@ p {
 
 #heading{
 	float:left;
-	width:500px;
+	width:250px;
 	height:60px;
 	padding:40px 0 0 0;
+}
+
+#tagline{
+	float:left;
+	width:300px;
+	height:30px;
+	padding: 50px 20px 0 130px;
+	color: #999;
+}
+
+#logo{
+	float:left;
+	width:200px;
+	text-align:right;
+	margin-top:20px;
+	height:80px;
 }
 
 #full-content {
@@ -73,13 +89,7 @@ p {
 	color:#99ff00;
 }
 
-#logo{
-	float:left;
-	width:400px;
-	text-align:right;
-	margin-top:20px;
-	height:80px;
-}
+
 
 #navigation {
 	width:900px;

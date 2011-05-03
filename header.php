@@ -33,6 +33,9 @@
 			<div id="heading">
 				<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/title.png" /></a>
 			</div>
+			<div id="tagline">
+				<?php bloginfo('description'); ?>
+			</div>
 			<div id="logo">
 				<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/logo.png" /></a>
 			</div>
