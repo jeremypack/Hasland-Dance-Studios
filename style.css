@@ -47,10 +47,12 @@ p {
 
 #tagline{
 	float:left;
-	width:300px;
-	height:30px;
-	padding: 50px 20px 0 130px;
-	color: #999;
+	width:330px;
+	height:20px;
+	padding: 60px 20px 0 100px;
+	color: #64A600;
+	font-size: 13px;
+	font-style: italic;
 }
 
 #logo{
