@@ -1,4 +1,4 @@
-/*
+	/*
  * 	Easy Slider 1.7 - jQuery plugin
  *	written by Alen Grakalic	
  *	http://cssglobe.com/post/4004/easy-slider-15-the-easiest-jquery-plugin-for-sliding

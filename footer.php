@@ -9,6 +9,18 @@
 
 </body>
 
+<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/easySlider1.7.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#slider").easySlider({
+			auto: true, 
+			continuous: true,
+			numeric: false
+		});
+	});	
+</script>
+
 <!-- Google Analytics -->
 	<script type="text/javascript">
 

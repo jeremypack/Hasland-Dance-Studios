@@ -9,9 +9,9 @@ Template Name: Homepage
 
 <?php get_header(); ?>
 
-<?php if (have_posts()) : ?>
-
-	<?php while (have_posts()) : the_post(); ?>
+<div id="classes">
+	<ul><?php wp_page_menu('title_li=&child_of=8'); ?> </ul>
+</div>
 
 	<div id="slider">
 		<ul>				
@@ -19,11 +19,10 @@ Template Name: Homepage
 			<li><a href="http://templatica.com/preview/7"><img src="<?php bloginfo('template_directory'); ?>/images/02.jpg" alt="Css Template Preview" /></a></li>
 			<li><a href="http://templatica.com/preview/25"><img src="<?php bloginfo('template_directory'); ?>/images/03.jpg" alt="Css Template Preview" /></a></li>
 			<li><a href="http://templatica.com/preview/26"><img src="<?php bloginfo('template_directory'); ?>/images/04.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/27"><img src="<?php bloginfo('template_directory'); ?>/images/05.jpg" alt="Css Template Preview" /></a></li>			
+			<li><a href="http://templatica.com/preview/27"><img src="<?php bloginfo('template_directory'); ?>/images/05.jpg" alt="Css Template Preview" /></a></li>
+			<li><a href="http://templatica.com/preview/26"><img src="<?php bloginfo('template_directory'); ?>/images/04.jpg" alt="Css Template Preview" /></a></li>			
 		</ul>
 	</div>
-
-	<?php endwhile; ?>
 	
 <div id="two-big">
 	<?php $one_heading = get_post_meta($post->ID, "one_heading", true) ; ?>
@@ -42,13 +41,5 @@ Template Name: Homepage
 		<p><?php echo $three_paragraph ?></p>
 	<?php } ?>
 </div>
-		<?php // Navigation ?>
-
-	<?php else : ?>
-
-		<h3>sorry page not found</h3>
-		<?php get_search_form(); ?>
-
-<?php endif; ?>
 
 <?php get_footer(); ?>
