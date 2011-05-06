@@ -8,17 +8,14 @@
 </div><!-- End Wrap -->
 
 </body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.cycle.lite.min.js"></script>
 
-<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/jquery.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/easySlider1.7.js"></script>
 <script type="text/javascript">
-	$(document).ready(function(){	
-		$("#slider").easySlider({
-			auto: true, 
-			continuous: true,
-			numeric: false
-		});
-	});	
+	$(document).ready(function(){
+		$('#slideshow').cycle('fade');
+		
+		});	
 </script>
 
 <!-- Google Analytics -->

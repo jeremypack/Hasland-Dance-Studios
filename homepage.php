@@ -15,12 +15,10 @@ Template Name: Homepage
 	</ul>
 </div><!-- End Classes -->
 
-	<div id="slider">
-		<ul>				
-			<li><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/class.jpg" alt="Css Template Preview" /></li>
-			<li><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/balletgroup.jpg" alt="Css Template Preview" /></li>
-		</ul>
-	</div>
+<div id="slideshow"> 
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/class.jpg" /> 
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/balletgroup.jpg" /> 
+</div>
 
 <div id="two-big">
 	<?php $one_heading = get_post_meta($post->ID, "one_heading", true) ; ?>

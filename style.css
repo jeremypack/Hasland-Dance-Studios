@@ -86,16 +86,24 @@ p {
 	margin:0;
 }
 
-#slider {
-	float:left;
-	width:900px;
-	height:auto;
-	padding:0 0 5px 0;
-	margin:5px 0 0 0;
-}
-
-#slider img {
-	float:left;
+#slideshow {  
+ 	width:900px;
+	height:338px;
+    padding: 0;  
+    margin:  0;
+  	float:left;
+	overflow:hidden;
+	border:solid thick black;
+} 
+ 
+.pics img {  
+    padding: 0;  
+    border:  1px solid #ccc;  
+    background-color: #eee;  
+    width:  900px; 
+    height: 363px; 
+    top:  0; 
+    left: 0 
 }
 
 #two-big{
