@@ -10,20 +10,18 @@ Template Name: Homepage
 <?php get_header(); ?>
 
 <div id="classes">
-	<ul><?php wp_page_menu('title_li=&child_of=8'); ?> </ul>
-</div>
+	<ul>
+		<?php wp_page_menu('title_li=&child_of=8'); ?>
+	</ul>
+</div><!-- End Classes -->
 
 	<div id="slider">
 		<ul>				
-			<li><a href="http://templatica.com/preview/30"><img src="<?php bloginfo('template_directory'); ?>/images/01.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/7"><img src="<?php bloginfo('template_directory'); ?>/images/02.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/25"><img src="<?php bloginfo('template_directory'); ?>/images/03.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/26"><img src="<?php bloginfo('template_directory'); ?>/images/04.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/27"><img src="<?php bloginfo('template_directory'); ?>/images/05.jpg" alt="Css Template Preview" /></a></li>
-			<li><a href="http://templatica.com/preview/26"><img src="<?php bloginfo('template_directory'); ?>/images/04.jpg" alt="Css Template Preview" /></a></li>			
+			<li><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/class.jpg" alt="Css Template Preview" /></li>
+			<li><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/balletgroup.jpg" alt="Css Template Preview" /></li>
 		</ul>
 	</div>
-	
+
 <div id="two-big">
 	<?php $one_heading = get_post_meta($post->ID, "one_heading", true) ; ?>
 	<?php $one_paragraph = get_post_meta($post->ID, "one_paragraph", true) ; ?>

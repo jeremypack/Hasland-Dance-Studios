@@ -10,7 +10,7 @@ Tags: dancing, light, buisiness
 body{
 	background-color: #efefef;
 	font-size:12px;
-	font-family:Arial, Tahoma, Verdana;
+	font-family: Helvetica, Arial, Tahoma, Verdana;
 	color:#333;
 	margin:0 auto;
 	padding:0;
@@ -63,12 +63,39 @@ p {
 	height:80px;
 }
 
-slider {
+#classes {
+	float: left;
+	width:auto;
+	font-size: 11px;
+	margin:0 75px 20px 75px;
+}
+
+#classes ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width:auto;
+	display:block;
+}
+
+#classes ul li {
+	display: block;
+	float:left;
+	padding:7px 20px;
+	margin:0;
+}
+
+#slider {
 	float:left;
 	width:900px;
 	height:auto;
-	padding:5px 0 0 0;
-	margin:0;
+	padding:0 0 5px 0;
+	margin:5px 0 0 0;
+}
+
+#slider img {
+	float:left;
 }
 
 #two-big{
@@ -92,13 +119,16 @@ slider {
 }
 
 
-
 #navigation {
 	width:900px;
 	float:left !important; 
 	border-bottom: 1px solid #999;
 	border-top: 1px dotted #999;
-	height:30px;
+	margin:0;
+	padding:0;
+}
+
+#navigation ul {
 	margin:0;
 	padding:0;
 }
@@ -113,15 +143,15 @@ slider {
 }
 
 #navigation li a {
-	padding: 5px 20px;
+	padding: 7px 25px;
 	text-decoration:none;
 	background-color:white;
-	color:black;
+	color:#002a54;
 }
 
 #navigation li a:hover{
 	background:#99ff00;
-	color:#003366;
+	color:black;
 }
 
 /* Sub Menu */
@@ -368,8 +398,8 @@ th {
 			define width and height of list item (slide)
 			entire slider area will adjust according to the parameters provided here
 		*/ 
-		width:696px;
-		height:241px;
+		width:900px;
+		height:338px;
 		overflow:hidden; 
 		}	
 	#prevBtn, #nextBtn,
