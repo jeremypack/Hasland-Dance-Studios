@@ -16,8 +16,10 @@ Template Name: Homepage
 </div><!-- End Classes -->
 
 <div id="slideshow"> 
-    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/class.jpg" /> 
-    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/balletgroup.jpg" /> 
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/1.jpg" /> 
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/2.jpg" />
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/3.jpg" />
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2010/06/4.jpg" />
 </div>
 
 <div id="two-big">
